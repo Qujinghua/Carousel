@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.big{
+	width: 682px;
+	height: 420px;
+	background: #33ff66;
+	margin: 50px auto;
+	position: relative;/*参照物*/
+}
+.pic{
+	width: 682px;
+	height: 420px;
+	border: 1px solid #f00;
+}
+.pic img{
+	position: absolute;/*绝对定位*/
+	display: none;
+}
+.arr{
+	width: 40px;
+	height: 70px;
+	font-size: 30px;
+	font-weight: 900;
+	line-height: 70px;
+	text-align: center;
+	color: #ccc;
+	position: absolute;
+	top: 175px;
+	display: none;
+	cursor: pointer;
+}
+.l-arr{
+	left: 0px;
+}
+.r-arr{
+	right: 0px;
+}
+.big:hover .arr{
+	display: block;
+}
+.arr:hover{
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+}
+.but{
+	position: absolute;
+	bottom: 15px;
+	right: 12px;
+}
+.but ul li{
+	list-style-type: none;
+	width: 30px;
+	height: 20px;
+	/*border: 1px solid #ccc;*/
+	float: left;
+	margin-left: 10px;
+	text-align: center;
+	font-family: "microsoft yahei";
+	line-height: 20px;
+	font-size: 12px;
+	color: #fff;
+	background: rgba(0,0,0,0.3); 
+	cursor: pointer;
+}
+.but ul li:hover{
+	background:rgba(0,0,0,0.7);
+}
+.but .hover{
+	background:rgba(0,0,0,0.7);
+}
